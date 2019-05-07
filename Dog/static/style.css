@@ -1,0 +1,179 @@
+body{
+  margin: 0px;
+  display: grid;
+  grid-template-areas: 'header header header header'
+  'navbar navbar navbar navbar'
+  'section section section section'
+  'aside aside aside aside'
+  'footer footer footer footer';
+}
+
+header {
+  grid-area: header;
+  width: 100%;
+  height: 450px;
+  background-image: url("https://i0.wp.com/www.society19.com/wp-content/uploads/2016/11/cuddling-puppies-main.jpg");
+  border-top: 10px solid #404040;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  margin: 0;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+p{
+  margin: 0;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 14pt;
+  font-weight: 100;
+}
+
+nav {
+  grid-area: navbar;
+  width: 100%;
+  height: 130px;
+  background-color: #404040;
+  display: flex;
+}
+
+#divisaoicones {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#divisaoicones img {
+  width: 20px;
+}
+
+#divisaoicones div{
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  background-color: lightgray;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divisaoicones div:hover {
+  background-color:gray;
+}
+
+section {
+  grid-area: section;
+  width: 100%;
+  height: 150px;
+  background-color: #404040;
+  display: flex;
+}
+
+#caracteristicas {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#caracteristicas div {
+  width: 25%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#feedback {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+aside {
+  grid-area: aside;
+  width: 100%;
+  height: 150px;
+  background-color: lightgray;
+  display: flex;
+}
+
+aside h2 {
+  font-family: 'Pacifico', cursive;
+  color: gray;
+  
+}
+
+aside #feedback .p2 {
+  width: 70%;
+  display: flex;
+}
+
+aside #feedback p {
+  color: gray;
+  font-size: 12pt;
+}
+
+aside h3 {
+  font-family: 'Pacifico', cursive;
+  color: gray;
+  ;
+}
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  height: 100px;
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+#redessociais {
+  margin-top: 15px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#redessociais img {
+  width:20px;
+}
+
+#redessociais div{
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  background-color: lightgray;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#redessociais div:hover {
+  background-color: gray;
+}
